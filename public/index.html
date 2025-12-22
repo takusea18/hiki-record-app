@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<hrml lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>弾き語り記録</title>
+</head>
+<body>
+    <h1>弾き語り練習記録</h1>
+
+    <form action="/save" method="post">
+        <input type="text" name="title" placeholder="曲名">
+        <input type="text" name="artist" placeholder="アーティスト">
+        <button type="submit">保存</button>
+    </form>
+
+    <label>備考</label>
+    <textarea name="memo" rows="4"></textarea> 
+
+    <label>キー</label>
+    <select name="key">
+        <option>C</option>
+        <option>C♭</option>
+        <option>D</option>
+        <option>E♭</option>
+        <option>E</option>
+        <option>F</option>
+        <option>G♭</option>
+        <option>A</option>
+        <option>B♭</option>
+        <option>B</option>
+    </select>
+
+</body>
+</hrml>
